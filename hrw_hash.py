@@ -88,7 +88,7 @@ def client():
             payload_ = {'{}'.format(hash_):','.join(row_)}
             #print(payload_)
             # prepare http request and post payload
-            req_ = urllib.request.Request("{}/api/v1/entries".format(node_.name))
+            req_ = urllib.request.Request("{}/api/v1/entries".format(node_.name_))
             req_.add_header('Content-Type', 'application/json; charset=utf-8')
             json_data_ = json.dumps(payload_)
             json_data_bytes_ = json_data_.encode('utf-8')
