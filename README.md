@@ -1,4 +1,4 @@
-# cmpe273-assignment2
+# consistent_n_hrw_hashing_py
 
 ##Prerequisites:
 Listed in requirements.txt
